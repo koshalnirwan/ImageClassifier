@@ -17,7 +17,8 @@ Dataset consists of two sets. Training set contains 8000 images each for cats an
 ## Data Preprocessing
 Preprocessing is done as not all the images are of same shape and size. This is done using Python's OpenCV Library. 
 1. Load Original Image 
-<img src="Screenshots/cat_org.JPG",width=80>
+![](Screenshots/cat_org.JPG)
+<img src="Screenshots/dog_org.JPG", width='100'>
    
 2. Convert images into gray scale. This is because we are only concerned for the patterns in images and not the color. This is also a memory efficient step.
 3. Resize images so that they all are of same size and can be operated on smoothly
