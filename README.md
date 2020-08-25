@@ -49,5 +49,10 @@ The best performing model with ***test accuracy 80.1%*** has combination of - <b
 **Layer Size = 64**<br>
 **Conv Layers = 3**<br>
 
+## Prediction
+To predict an image it should be first converted to grey scale and then resized to same size as done with training images.
 
+Predicted Image (Grey scale)                          |  Predicted Image (Resized) 
+:----------------------------------------------------:|:-------------------------:
+<img src="Screenshots/pred_not_blur.JPG" width=300>   |  <img src="Screenshots/pred_blr.JPG" width=300>
 
